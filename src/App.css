@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+.item {
+    text-align: left;
+}
+.tags {
+    display: inline-block;
+    width: 20px;
+}
