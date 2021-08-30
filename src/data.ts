@@ -59,11 +59,36 @@ export const data: IData = {
                         fileType: "dir",
                         size: 0,
                         space: 3,
-                        pageName: "booking",
+                        pageName: "detail",
                         filePath: "submit/pages/tnt/detail",
+                    },
+                    "tools.js": {
+                        params: { fileType: "file", size: 30, space: 5, pageName: "tools.js" },
+                    },
+                    detail: {
+                        "index.js": {
+                            params: { fileType: "file", size: 30, space: 5, pageName: "index2.js" },
+                        },
+                        params: {
+                            fileType: "dir",
+                            size: 0,
+                            space: 4,
+                            pageName: "detail",
+                            filePath: "submit/pages/tnt/detail",
+                        },
+
+                        "action.js": {
+                            params: { fileType: "file", size: 30, space: 5, pageName: "action.js" },
+                        },
                     },
                     "index.js": {
                         params: { fileType: "file", size: 30, space: 4, pageName: "index.js" },
+                    },
+                    "action.js": {
+                        params: { fileType: "file", size: 30, space: 4, pageName: "action.js" },
+                    },
+                    "tools.js": {
+                        params: { fileType: "file", size: 30, space: 4, pageName: "tools.js" },
                     },
                 },
                 detail2: {

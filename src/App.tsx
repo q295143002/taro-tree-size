@@ -72,6 +72,8 @@ function ComponentChild(props: IProps) {
                     .map((v, index) => (
                         <span key={index} className='space' />
                     ))}
+                {children.length > 0 && <span className='plus'> {componentShow ? "+" : "-"}</span>}
+
                 {fileType === EFileTyps.dir && (
                     <img
                         className='fileImage'
@@ -80,7 +82,6 @@ function ComponentChild(props: IProps) {
                 )}
 
                 <span className='fileName'>{pageName}</span>
-                {/* {children.length > 1 && <span className='plus'> {componentShow ? "+" : "-"}</span>} */}
 
                 <span className='size'>{size}KB</span>
             </div>

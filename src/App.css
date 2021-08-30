@@ -65,7 +65,7 @@ html,
     display: inline-block;
     vertical-align: bottom;
     text-align: center;
-    margin-left: 4px;
+    margin-right: 4px;
 }
 .size {
     float: right;
